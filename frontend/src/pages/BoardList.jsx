@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom"
 import { getPosts } from "../api/board"
 import axios from "axios"
 import "./BoardList.css"
+import "./globals.css"
 
 export default function BoardList() {
   const [posts, setPosts] = useState([])

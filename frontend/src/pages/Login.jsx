@@ -4,6 +4,7 @@ import React, { useState } from "react"
 import { useNavigate, Link } from "react-router-dom"
 import { loginUser } from "../api/member"
 import "./Login.css"
+import "./globals.css"
 
 export default function Login() {
   const [username, setUsername] = useState("melon")

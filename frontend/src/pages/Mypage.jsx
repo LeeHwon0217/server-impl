@@ -4,6 +4,7 @@ import React, { useEffect, useState, useMemo } from "react"
 import { getUserInfo, logoutUser } from "../api/member"
 import { useNavigate, Link } from "react-router-dom"
 import "./Mypage.css"
+import "./globals.css"
 
 const Mypage = () => {
   const [user, setUser] = useState(null)

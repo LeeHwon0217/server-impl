@@ -4,6 +4,7 @@ import React, { useState, useEffect, useMemo } from "react"
 import { useNavigate, Link } from "react-router-dom"
 import { getUserInfo, updateUser, logoutUser } from "../api/member"
 import "./EditProfile.css"
+import "./globals.css"
 
 export default function EditProfile() {
   const [user, setUser] = useState(null)

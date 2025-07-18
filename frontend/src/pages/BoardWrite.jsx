@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react"
 import { useNavigate, useSearchParams } from "react-router-dom"
 import axios from "axios"
 import "./BoardWrite.css"
+import "./globals.css"
 
 export default function BoardWrite() {
   const [title, setTitle] = useState("")
